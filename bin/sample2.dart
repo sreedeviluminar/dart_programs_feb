@@ -1,5 +1,5 @@
 void main() {
-  ///syntax => datatype variable_name = value;
+   ///syntax => datatype variable_name = value;
   String firstname = 'anu';
   int age = 20;
   double cgpa = 7.8;
@@ -7,4 +7,5 @@ void main() {
   int b = 40;
   print('my name is $firstname');
   print('sum of a and b = ${a + b}');
+  print('i ');
 }
