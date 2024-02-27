@@ -8,10 +8,16 @@ class Students {
   double? cgpa;
 
   /// globally declared variables with static keyword - static variables - mainly used for memory management
-  static final String course = "Flutter";     // here memory and value will be constant
+  static final String course = "Flutter"; // here memory and value will be constant
   static String institute = "Luminar Technolab";
-}
 
+  void hobby(){   /// user defined method
+    //locally declared variables - local variables
+    String hob = "Swimming";
+    print("hobby : $hob");
+  }
+
+}
 void main() {
   /// object creation syntax   -  ClassName  object_name = ClassName();
   Students st1 = Students();
@@ -22,6 +28,7 @@ void main() {
   print('CGPA : ${st1.cgpa = 7.8}');
   print('course: ${Students.course}');
   print('institute: ${Students.institute}');
+  st1.hobby();
 
   print("***************************");
   Students st2 = Students();
