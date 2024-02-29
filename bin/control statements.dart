@@ -67,7 +67,7 @@ void main() {
   }
 
   /*  Switch case  */
-  String size1 = 'XXL';
+  String size1 = 'XS';
 
   switch (size1) {
     case 'XS':
