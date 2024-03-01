@@ -1,9 +1,34 @@
-void main(){
+void main() {
   ///for loop  - syntax : for(initialization ; condition check ; increment/decrement counter){  code  }
-  for(int i = 1; i < 11 ; i++ ){
-    print('i = $i');
-  }
+  // for(int i = 1; i < 11 ; i++ ){
+  //   print('i = $i');
+  // }
+  /// while syntax - initialization;
+  ///                while(condition){
+  ///                    code;
+  ///                    increment/decrement counter;
+  ///                }
+
+/*  int i = 1;
+  while (i <= 10) {
+    print(i);
+    i++;
+  }*/
+
+
+  /// do-while loop syntax  - initialization;
+  ///                         do{
+  ///                          code;
+  ///                          increment/decrement counter;
+  ///                          }while(condition);
+  ///
+  int i = 10;
+  do{
+    print(i);
+    i--;
+  }while(i >= 1);
 }
+
 /*
  i = 1   1 <= 10  true  print i = 1  i++ = 2
  i = 2   2 <= 10  true  print i = 2  i++ = 3
