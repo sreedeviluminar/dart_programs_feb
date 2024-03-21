@@ -1,5 +1,5 @@
 import 'dart:io';
-
+mixin x{}
 void main() {
   int reminder, sum = 0, temp;
   int number = int.parse(stdin.readLineSync()!);
