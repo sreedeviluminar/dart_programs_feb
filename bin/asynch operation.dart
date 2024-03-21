@@ -20,13 +20,17 @@
 //   print("Watch Your Movie");
 // }
 
+import 'dart:io';
+
 void main() async {
   String mail = 'abc@gmail.com';
   int pwd = 123456;
   int otp = 1122;
   print('Please Login Here');
   if (mail == 'abc@gmail.com' && pwd == 123456) {
-    print("Validate OTP");
+    print("Enter ur phone number");
+    int.parse(stdin.readLineSync()!);
+    print('please wait.....');
     await Future.delayed(Duration(seconds: 3), () {
       print('$otp Copy OTP');
     });
